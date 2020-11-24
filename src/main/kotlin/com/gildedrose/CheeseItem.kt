@@ -2,11 +2,14 @@ package com.gildedrose
 
 class CheeseItem(name: String, daysToExpire: Int, quality: Int) : Item(name, daysToExpire, quality) {
     override fun updateQualityBasedOnPositiveSellInDate() {
-        super.updateQualityBasedOnPositiveSellInDate()
+        if (quality < 50)
+            quality++
     }
 
     override fun updateQualityBasedOnNegativeSellInDate() {
-        super.updateQualityBasedOnNegativeSellInDate()
+        if (daysToExpire < 0 && quality < 50) {
+            quality++
+        }
     }
 
 }

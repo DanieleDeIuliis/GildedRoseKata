@@ -5,7 +5,9 @@ open class Item(var name: String, var daysToExpire: Int, var quality: Int) {
 //        return this.name + ", " + this.sellIn + ", " + this.quality
 //    }
     open fun updateQualityBasedOnPositiveSellInDate() {}
-    open fun updateQualityBasedOnNegativeSellInDate() {}
+    open fun updateQualityBasedOnNegativeSellInDate() {
+        quality--
+    }
     open fun decreaseSellInDays() {
         daysToExpire--
     }
