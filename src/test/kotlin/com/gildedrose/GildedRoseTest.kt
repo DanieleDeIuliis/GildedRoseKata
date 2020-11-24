@@ -2,7 +2,6 @@ package com.gildedrose
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertTrue
-import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 
 internal class GildedRoseTest {
@@ -46,7 +45,7 @@ internal class GildedRoseTest {
         val items = arrayOf<Item>(Item("foo", 0, 3))
         val app = GildedRose(items)
         app.updateQuality()
-        assertTrue(app.items[0].sellIn < 0)
+        assertTrue(app.items[0].daysToExpire < 0)
     }
 
     @Test
