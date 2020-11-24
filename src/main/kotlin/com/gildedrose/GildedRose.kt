@@ -54,11 +54,7 @@ class GildedRose(var items: Array<Item>) {
     }
 
     private fun decreaseSellInDays(i: Int) {
-        when{
-            items[i].name != "Sulfuras, Hand of Ragnaros" -> {
-                items[i].daysToExpire = items[i].daysToExpire - 1
-            }
-        }
+        items[i].decreaseSellInDays()
     }
 
 }
