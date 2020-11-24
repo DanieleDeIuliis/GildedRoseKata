@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gildedrose.GildedRoseTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-11-24T18:20:48" hostname="mbp-de-dlu.home" time="0.045">
+<testsuite name="com.gildedrose.GildedRoseTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-11-24T18:49:55" hostname="mbp-de-dlu.home" time="0.172">
   <properties/>
-  <testcase name="decreaseQualityCommonItem()" classname="com.gildedrose.GildedRoseTest" time="0.029"/>
+  <testcase name="normalIncreaseQualityBackStageItem()" classname="com.gildedrose.GildedRoseTest" time="0.147"/>
+  <testcase name="agedBrieOverSellInDateIncreaseQuality()" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
+  <testcase name="decreaseQualityCommonItem()" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
   <testcase name="commonItemSellInDecrease()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="mediumIncreaseQualityBackStageItem()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="foo()" classname="com.gildedrose.GildedRoseTest" time="0.002"/>
-  <testcase name="increaseQualitySpecialItem()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="commonItemQualityDecrease()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="AgedBrieOverSellInDateIncreaseQuality()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="testMaxQualityAlreadyReached()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="maxIncreaseQualityBackStageItem()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
+  <testcase name="specialItemQualityUpdate()" classname="com.gildedrose.GildedRoseTest" time="0.003"/>
+  <testcase name="testMaxQualityAlreadyReached()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
   <testcase name="backstagePassOverSellInQualityDropsToZero()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="commonItemQualityOverSellInDateDecreaseDouble()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="specialItemNoDaysToExpireUpdate()" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="commonItemQualityOverSellInDateDecreaseDouble()" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,4 +1,4 @@
-package com.gildedrose
+package com.model
 
 class CheeseItem(name: String, daysToExpire: Int, quality: Int) : Item(name, daysToExpire, quality) {
     override fun updateQualityBasedOnPositiveSellInDate() {

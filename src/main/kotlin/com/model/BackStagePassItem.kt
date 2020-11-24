@@ -1,4 +1,5 @@
-package com.gildedrose
+package com.model
+
 
 class BackStagePassItem(name: String, daysToExpire: Int, quality: Int) : Item(name, daysToExpire, quality) {
     override fun updateQualityBasedOnPositiveSellInDate() {
